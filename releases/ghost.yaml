@@ -8,6 +8,7 @@ metadata:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.chart-image: glob:1.21.*
 spec:
+  helmVersion: v3
   releaseName: ghost
   chart:
     git: ssh://git@github.com/fluxcd/flux-get-started
